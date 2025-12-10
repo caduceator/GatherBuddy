@@ -399,7 +399,7 @@ public static partial class Fish
             .Spear     (data, SpearfishSize.Small, SpearfishSpeed.ExtremelySlow);
         data.Apply     (36535, Patch.Endwalker) // Tebqeyiq Smelt
             .Spear     (data, SpearfishSize.Small, SpearfishSpeed.SuperFast)
-            .Predators (data, 0, (36531, 10), (36546, 2), (36547, 3));
+            .Predators (data, 20, (36531, 10), (36546, 2), (36547, 3));
         data.Apply     (36536, Patch.Endwalker) // Shallows Cod
             .Spear     (data, SpearfishSize.Average, SpearfishSpeed.VerySlow);
         data.Apply     (36537, Patch.Endwalker) // Meyhane Reveler
